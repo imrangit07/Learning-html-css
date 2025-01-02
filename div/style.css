@@ -1,0 +1,29 @@
+.wrapper {
+    background-color: grey;
+    padding: 20px;
+    border: 5px dotted yellow;
+}
+
+.wrapper h1 {
+    color: red;
+    background-color: orchid;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper p {
+    color: white;
+    font-size: 18px;
+}
+
+.wrapper button {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border: 2px solid blue;
+    background-color: yellowgreen;
+    color: red;
+    font-size: 20px;
+}
