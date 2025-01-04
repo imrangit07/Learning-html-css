@@ -1,0 +1,37 @@
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    width: 300px;
+    /* height: 390px; */
+    background-color: white;
+    margin-top: 120px;
+    padding: 40px 5px 40px 30px;
+    box-shadow: 0px 0px 10px 10px lightskyblue;
+    border-radius: 20px;
+}
+
+.card>i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: lightskyblue;
+}
+
+.card>h1 {
+    font-size: 34px;
+    line-height: 10px;
+}
+.card>p{
+    margin-top: 40px;
+    line-height: 20px;
+}
+.card>button{
+    margin-top: 20px;
+    padding:5px 15px;
+    border: none;
+    background-color:lightskyblue;
+    border-radius: 20px;
+    color: white;
+}
