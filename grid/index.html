@@ -10,43 +10,52 @@
         .rapper {
             height: 100vh;
             background-color: blueviolet;
-            
             display: grid;
             grid-template-columns: auto auto auto;
-            grid-template-rows: 200px 350px;
+            grid-template-rows: 300px 300px 300px 300px;
         }
 
-        .ch1,
-        .ch2,
-        .ch3,
-        .ch4,
-        .ch5,
-        .ch6 {
+        .ch {
             background-color: aquamarine;
             border: 2px solid red;
             color: black;
             font-size: 45px;
-           /* text-align: center; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 2px 2px 4px black;
         }
-        .ch1{
+
+        .ch1 {
             grid-column-start: 1;
             grid-column-end: 4;
         }
-        .ch2{
-           grid-row-start: 2;
-           grid-row-end: 4;
+
+        .ch2 {
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        .ch5 {
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+
+        .ch6 {
+            grid-column-start: 1;
+            grid-column-end: 4;
         }
     </style>
 </head>
 
 <body>
     <section class="rapper">
-        <div class="ch1" id="">1</div>
-        <div class="ch2" id="">2</div>
-        <div class="ch3" id="">3</div>
-        <div class="ch4" id="">4</div>
-        <div class="ch5" id="">5</div>
-        <div class="ch6" id="">6</div>
+        <div class="ch1 ch" id="">IMRAN HUSSAIN</div>
+        <div class="ch2 ch" id="">2</div>
+        <div class="ch3 ch" id="">3</div>
+        <div class="ch4 ch" id="">4</div>
+        <div class="ch5 ch" id="">5</div>
+        <div class="ch6 ch" id="">6</div>
     </section>
 </body>
 
