@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 250px;
+            height: 250px;
+            background-color: blue;
+            border-radius: 50%;
+            position: relative;
+            animation-name: ani;
+            animation-duration: 5s;
+            animation-iteration-count:5;
+        }
+
+        @keyframes ani{
+            0%{
+                left: 0px;
+                top: 0px;
+            }
+            50%{
+                left:300px;
+                top:300px;
+            }
+            100%{
+                left:1000px;
+                top:300px;
+            }
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>
