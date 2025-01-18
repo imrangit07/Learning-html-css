@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(137, 43, 226, 0.573);
+    color: black;
+    
+}
+body h1{
+    font-size: 6rem;
+}
+.para{
+    font-style: 4rem;
+}
+.media{
+    padding: 2rem 5rem;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: rgba(165, 42, 42, 0.644);
+    }
+    .head{
+        font-size: 3rem;
+        color: aqua;
+    }
+    .para{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:200px) and (max-width:599px){
+    body{
+        background-color: rgba(25, 218, 61, 0.644);
+    }
+    .head{
+        font-size: 3rem;
+        color: rgb(13, 0, 255);
+    }
+    .para{
+        font-size: 1rem;
+    }
+}
